@@ -1,3 +1,1 @@
-export function jsxDEV(...args) {
-  console.log('args:', args)
-}
+export { jsxDEV } from './src/jsx/ReactJSXElement'

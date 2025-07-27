@@ -24,6 +24,7 @@ export default defineConfig([
     rules: {
       'prettier/prettier': 'warn',
       'no-case-declarations': 'off',
+      'no-prototype-builtins': 'off',
     },
   },
 ])

@@ -1,0 +1,14 @@
+{
+  "name": "react-reconciler",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "exports": {
+    "./ReactFiberReconciler": "./src/ReactFiberReconciler.js",
+    "./ReactWorkTags": "./src/ReactWorkTags.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0"
+}

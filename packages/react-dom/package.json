@@ -5,10 +5,14 @@
   "main": "index.js",
   "type": "module",
   "exports": {
-    "./client": "./client/index.js"
+    ".": "./index.js",
+    "./client": "./client.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.11.0"
+  "packageManager": "pnpm@10.11.0",
+  "dependencies": {
+    "react-reconciler": "workspace:*"
+  }
 }
